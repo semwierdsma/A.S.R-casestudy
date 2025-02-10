@@ -19,13 +19,13 @@ If the stock is listed in the EAM, TDG, or XET markets, the system converts USD 
 
 2. View Portfolio
 Displays details of each asset, including:
-Ticker
-Sector
-Asset class
-Quantity
-Average purchase price
-Transaction cost
-Current market price
+Ticker,
+Sector,
+Asset class,
+Quantity,
+Average purchase price,
+Transaction cost,
+Current market price,
 Total profit
 
 3. Plot Stock History
@@ -36,13 +36,15 @@ Displays a line graph of stock price movements over time.
 4. Calculate Portfolio Value & Weights
 Calculates the total portfolio value by summing the market value of all assets.
 Provides breakdowns of portfolio value and weight distribution by:
-Individual assets
-Asset class
+Individual assets,
+Asset class,
 Sector
+
+
 Dependencies
-forex_python.converter (for currency exchange rates)
-yfinance (for stock price data)
-matplotlib (for plotting stock price trends)
+forex_python.converter (for currency exchange rates),
+yfinance (for stock price data),
+matplotlib (for plotting stock price trends),
 datetime (for handling date inputs)
 
 Usage
@@ -54,8 +56,3 @@ The script provides a CLI menu with the following options:
 4. Calculate Portfolio Value and Weights: Analyze portfolio distribution.
 5. Exit: Quit the program.
 
-Dependencies
-forex_python.converter (for currency exchange rates)
-yfinance (for stock price data)
-matplotlib (for plotting stock price trends)
-datetime (for handling date inputs)
