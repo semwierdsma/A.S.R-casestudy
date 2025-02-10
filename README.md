@@ -53,3 +53,9 @@ The script provides a CLI menu with the following options:
 3. Show Historical Prices (Graph): View stock price history.
 4. Calculate Portfolio Value and Weights: Analyze portfolio distribution.
 5. Exit: Quit the program.
+
+Dependencies
+forex_python.converter (for currency exchange rates)
+yfinance (for stock price data)
+matplotlib (for plotting stock price trends)
+datetime (for handling date inputs)
