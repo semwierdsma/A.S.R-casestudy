@@ -42,6 +42,7 @@ Sector
 
 
 Dependencies
+
 forex_python.converter (for currency exchange rates),
 yfinance (for stock price data),
 matplotlib (for plotting stock price trends),
