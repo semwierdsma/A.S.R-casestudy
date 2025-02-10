@@ -1,0 +1,6 @@
+yfinance                # Yahoo Finance API for downloading financial data
+matplotlib              # Plotting library for visualizing data
+forex-python            # Library for foreign exchange rates and currency conversion
+
+# datetime is part of Python's standard library, used for manipulating dates and times.
+# It does not need to be installed via pip as it's included with Python by default.
